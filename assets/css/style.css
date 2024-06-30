@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow: hidden;
+
+}
+
+.landing-page {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+  }
+
+
+video {
+    filter: brightness(60%);
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h3.subtitle {
+        top: 5rem;
+        position: absolute;
+        font-size: 2rem;
+        animation: color-change 3s infinite;
+    }
+
+@keyframes color-change {
+    0% {color: rgb(21, 114, 196);}
+    25% {color: white;}
+    50% {color: rgb(8, 95, 166);}
+    75% {color: white;}
+    100% {color: rgb(8, 52, 171);}
+}
+
+
+h1.title {
+        position: absolute;
+        font-size: 8rem;
+        margin-bottom: 2rem;
+        letter-spacing: 1rem;
+        color: white;
+
+    }
+
+p {
+    top: 38rem;
+    position: absolute;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.container-nav {
+    position: absolute;
+    bottom: 50rem;
+    align-items: center;
+}
+
+nav {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+    
+a {
+    text-decoration: none;
+    background-image: linear-gradient(
+    to right,
+    rgb(12, 161, 230) 0,
+    #fff 50%,
+    #fff
+        );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+a:before {
+    content: '';
+    background: black;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}   
+
+a:hover {
+    background-position: 0;
+}
+
+a:hover::before {
+    width: 100%;
+}
