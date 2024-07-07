@@ -236,6 +236,119 @@ input {
     bottom: 3.7rem;
 }
 
+.container-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../../../assets/img/bg-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+}
+
+.content-4 img {
+position: relative;
+top: 10rem;
+left: 2rem;
+position: center;
+width: 40rem;
+}
+
+.content-4 h1 {
+font-family: "Work Sans", Sans-serif;
+font-size: 3em;
+color: white;
+position: relative;
+left: 9rem;
+top: 6rem;
+font-weight: 800;
+}
+
+.content-4 h2 {
+font-family: "Work Sans", Sans-serif;
+font-size: 2em;
+color: white;
+position: relative;
+left: 14rem;
+top: 8rem;
+font-weight: 800;
+}
+
+.content-4 p {
+font-family: "Work Sans", Sans-serif;
+color: white;
+position: relative;
+font-size: 1rem;
+bottom: 6rem;
+left: 50rem;
+max-width: 35rem;
+line-height: 25px;
+}
+.content-4 a {
+text-decoration: none;
+color: white;
+position: relative;
+right: 28rem;
+top: 15rem;
+border-radius: 60px;
+border: 4px solid rgb(235, 232, 232);
+margin: 0;
+padding: 14px 30px;
+line-height: 1;
+font-family: "Work Sans", Sans-serif;
+font-size: 2rem;
+font-style: italic;
+}
+
+.container-5 {
+height: 150vh;
+}
+
+.content-5 h1 {
+position: relative;
+top: 3rem;
+left: 32rem;
+font-weight: 800;
+}
+
+.content-5 img {
+position: relative;
+left: 1rem;
+top: 1rem;
+width: 30rem;
+}
+
+.content-5 p {
+position: relative;
+bottom: 16rem;
+left: 33rem;
+max-width: 50rem;
+}
+
+
+.content-5-2 img {
+position: relative;
+left: 56rem;
+bottom: 20rem;
+width: 35rem;
+}
+
+.content-5-2 h1 {
+position: relative;
+left: 42rem;
+bottom: 20rem;
+}
+
+.content-5-2 p {
+position: relative;
+left: 3rem;
+bottom: 15rem;
+text-align: right;
+max-width: 50rem;
+}
+
+
+
+
+
 
 .design-two {
     width: 100vw;

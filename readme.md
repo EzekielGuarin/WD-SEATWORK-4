@@ -62,6 +62,11 @@ Description of the project in details.
 
 This website showcases distinct game design layouts using pure HTML and CSS, highlighting various features through clean, modern aesthetics.
 
+Guiding Question:
+- What is the project - This project is about displaying a 2 different features of a website
+- Whats the purpose - The purpose of this is to show a distinct and variety designs of the featured website
+- What technology used and how it is used - Used VSCODE for coding, used HTML and CSS as my programming language
+
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
